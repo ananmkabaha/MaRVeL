@@ -71,7 +71,7 @@ class Datasets:
         return image
 
     def swap(self, image):
-        if self.dataset == 'cifar10':
+        if self.dataset != 'cifar10':
             return image
         count = 0
         image_ = np.copy(image)
