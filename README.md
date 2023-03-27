@@ -18,7 +18,7 @@ MaRVeL assumes that ELINA's folder exists into the folder of MaRVeL_system.
 <strong>MaRVeL parameters:</strong><br />
 --netname: the network name, the extension can be only .onnx<br />
 --dataset: the dataset, can be either mnist, fmnist, cifar10, contagio, or syn<br />
---timeout: the total certification timeout<br />
+--timeout: the maximal certification time<br />
 --max_iterations: the maximal number of optimization steps<br />
 --milp_num_of_neurons: the number of milp neurons per layer<br />
 --milp_time_limit: the time limit to solve a single milp problem<br />
@@ -26,7 +26,7 @@ MaRVeL assumes that ELINA's folder exists into the folder of MaRVeL_system.
 --lambda: the tradeoff parameter<br />
 --lambda_alpha: the decay rate of the tradeoff parameter<br />
 --lambda_min: the minimal value of the tradeoff parameter<br />
---parallelization: the flag to run milp problems in parallel mode 0/1<br />
+--parallelization: the flag to run milp problems in parallel mode<br />
 --output_file: the output file<br />
 --samples_num: the number of samples to analyze<br />
 --t_size: the minimal difference between two optimization steps<br />
