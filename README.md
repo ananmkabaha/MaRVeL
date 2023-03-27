@@ -16,20 +16,20 @@ Please follow the instructions in https://github.com/eth-sri/eran <br/>
 MaRVeL assumes that ELINA's folder exists into the folder of MaRVeL_system. 
 
 <strong>MaRVeL parameters:</strong><br />
---netname: the network name, the extension can be only .onnx
---dataset: the dataset, can be either mnist, fmnist, cifar10, contagio, or syn
---timeout: the total certification timeout
---max_iterations: the maximal number of optimization steps
---milp_num_of_neurons: the number of milp neurons per layer
---milp_time_limit: the time limit to solve a single milp problem
---lr: the learning rate
---lambda: the tradeoff parameter
---lambda_alpha: the decay rate of the tradeoff parameter
---lambda_min: the minimal value of the tradeoff parameter
---parallelization: the flag to run milp problems in parallel mode 0/1
---output_file: the output file
---samples_num: the number of samples to analyze
---t_size: the minimal difference between two optimization steps
+--netname: the network name, the extension can be only .onnx<br />
+--dataset: the dataset, can be either mnist, fmnist, cifar10, contagio, or syn<br />
+--timeout: the total certification timeout<br />
+--max_iterations: the maximal number of optimization steps<br />
+--milp_num_of_neurons: the number of milp neurons per layer<br />
+--milp_time_limit: the time limit to solve a single milp problem<br />
+--lr: the learning rate<br />
+--lambda: the tradeoff parameter<br />
+--lambda_alpha: the decay rate of the tradeoff parameter<br />
+--lambda_min: the minimal value of the tradeoff parameter<br />
+--parallelization: the flag to run milp problems in parallel mode 0/1<br />
+--output_file: the output file<br />
+--samples_num: the number of samples to analyze<br />
+--t_size: the minimal difference between two optimization steps<br />
 
 
 <strong>Examples:</strong><br />
