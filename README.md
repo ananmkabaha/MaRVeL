@@ -12,8 +12,8 @@ In this repository, we provide an implementation for the paper "Maximal Robust N
 </div>
 
 <strong>Installat ERAN dependencies:</strong><br />
-Please follow the instructions in https://github.com/eth-sri/eran <br/>
-MaRVeL assumes that ELINA's folder exists into the folder of MaRVeL_system. 
+(1) Follow the instructions in https://github.com/eth-sri/eran <br/>
+(2) Move ELINA's folder into the folder of MaRVeL_system. 
 
 <strong>MaRVeL parameters:</strong><br />
 --netname: the network name, the extension can be only .onnx<br />
