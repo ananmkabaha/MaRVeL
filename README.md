@@ -11,7 +11,7 @@ In this repository, we provide an implementation for the paper "Maximal Robust N
 </pre>
 </div>
 
-<strong>Installat ERAN dependencies:</strong><br />
+<strong>Install ERAN's dependencies:</strong><br />
 (1) Follow the instructions in https://github.com/eth-sri/eran <br/>
 (2) Move ELINA's folder into the folder of MaRVeL_system. 
 
