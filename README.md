@@ -33,8 +33,8 @@ In this repository, we provide an implementation for the paper "Maximal Robust N
 
 
 <strong>Examples:</strong><br />
-python3 run.py --netname ./models/SYN1.onnx --dataset syn --lr 0.01 <br />
-python3 run.py --netname ./models/MNIST1.onnx --dataset mnist --lr 0.1<br />
+python3 run.py --netname ./models/SYN1.onnx --dataset syn --lr 0.01 --samples_num 50 --lambda 0.99 --milp_time_limit 100 --milp_num_of_neurons 200<br />
+python3 run.py --netname ./models/MNIST1.onnx --dataset mnist --lr 0.1--samples_num 50 --lambda 0.99 --milp_time_limit 100 --milp_num_of_neurons 200<br />
 
 We note that the best values for the lr paramter are between [0.01-0.2].<br />
 For mnist, fmnist, and contagio we recommend the values between [0.1-0.2], and for syn and cifar10 we recommend the values between [0.01-0.05]. 
